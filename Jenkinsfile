@@ -30,7 +30,8 @@ pipeline {
                 job: env.JOB_NAME, job_numb: env.BUILD_NUMBER, job_url: env.BUILD_URL, job_status: job_success, unitTest_score: unitTest_score
                 )
             }
-        } catch (e) {
+        } 
+        
 
         stage("Error") {
 			deleteDir()
@@ -39,8 +40,6 @@ pipeline {
             job: env.JOB_NAME, job_numb: env.BUILD_NUMBER, job_url: env.BUILD_URL, job_status: job_error, unitTest_score: unitTest_score
             )
         }    
-            }
-        }
         
     } 
 }
