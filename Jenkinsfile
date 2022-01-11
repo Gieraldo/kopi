@@ -1,10 +1,3 @@
-// ::NOTIFICATION 
-def telegram_url        = "https://api.telegram.org/bot5021645900:AAFxQI0ltL5dRTNHqLfhg1Ko1ll7hUujjp8/sendMessage" 
-def telegram_chatid     = "-1001131394773"
-def job_success         = "SUCCESS"
-def job_error           = "ERROR"
-
- 
 pipeline {   
     agent any    
        
