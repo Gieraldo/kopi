@@ -4,7 +4,7 @@ def telegram_chatid     = "-1001131394773"
 def job_success         = "SUCCESS"
 def job_error           = "ERROR"
 
-
+ 
 pipeline {   
     agent any    
        
